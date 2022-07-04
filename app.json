@@ -10,19 +10,19 @@
     "repository": "https://github.com/xenoda/Auto-Caption-Adder-Bot",
     "env": {
         "APP_ID": {
-            "description": "Your APP ID From my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "description": "Your APP ID From my.telegram.org",
             "value": ""
         },
         "API_HASH": {
-            "description": "Your API Hash From my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "description": "Your API Hash From my.telegram.org",
             "value": ""
         },
         "MT_BOT_TOKEN": {
-            "description": "Your Bot Token From @BotFather",
+            "description": "Your Bot Token",
             "value": ""
         },
         "BUTTON": {
-            "description": "Button Name",
+            "description": "Button Text",
             "required": false
         },
         "CAPTION": {
@@ -30,11 +30,11 @@
             "required": false
         },
         "LINK": {
-            "description": " Group Or Chanenl) Public Link Link",
-            "value": "t.me/mo_tech_yt"
+            "description": "Button Link",
+            "value": ""
         },
         "BOT_USERNAME": {
-            "description": "Your Bot Username From @BotFather",
+            "description": "Your Bot Username",
             "value": ""
         }
     },
