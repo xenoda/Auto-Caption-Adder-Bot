@@ -1,5 +1,7 @@
 # PrivateAutoCaption
 Telegram Auto Caption Adder Bot.
+This bot can automatically add captions and(/or) buttons 
+to any media file sent to your public / private Telegram channel.
 
   </a>
 </p>
