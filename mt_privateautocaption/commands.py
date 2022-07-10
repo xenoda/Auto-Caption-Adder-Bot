@@ -17,9 +17,9 @@ MT = "@AutoCaptionAdder_Bot"
 
 @Client.on_message(filters.private & filters.command("start"))
 async def start_meg(client, update):
-    text = f"""<b>Hello  👋 {update.from_user.mention}\n\nI am an AutoCaptionAdder bot,\n\nAdd me to your channel as admin, and I will show you my true purpose.\n\n {MT}</b>"""
+    text = f"""<b>Hi  👋 {update.from_user.mention}\n\nI am an Auto Caption Adder bot,\n\nAdd me to your channel as admin, and I will show you my true purpose.\n\n {MT}</b>"""
     reply_markup =  InlineKeyboardMarkup( [[
-        InlineKeyboardButton("FORK BY", url="t.me/theflaxcompany")
+        InlineKeyboardButton("FORK BY", url="https://github.com/xenoda/")
         ]]
     )
     await update.reply_text(
